@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imgs/bgImageIndex.webp");
+    text-shadow: 1px 1px 2px rgb(180, 117, 117), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    padding-top: 180px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+input,
+textarea {
+    margin: 20px 20px;
+    width: 390px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    border-radius: 10px;
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button.btnExit {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 30px;
+    width: 150px;
+    background-image: inherit;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.exit {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px rgb(180, 117, 117), 0 0 1em blue, 0 0 0.2em blue;
+    color: black;
+}
+
+.addTravel {
+    margin-top: 40px;
+}
+
+.newTravel {
+    height: 30px;
+    width: 200px;
+    background-color: #293948;
+    color: antiquewhite;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+button.newTravel:hover {
+    background-color: #f89d13;
+}

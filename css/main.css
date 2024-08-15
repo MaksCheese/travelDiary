@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url("../imgs/bgImageIndex.webp");
+    text-shadow: 1px 1px 2px rgb(180, 117, 117), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+button.btnExit {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 30px;
+    width: 150px;
+    background-image: inherit;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.exit {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px rgb(180, 117, 117), 0 0 1em blue, 0 0 0.2em blue;
+    color: black;
+}
+
+.general {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+
+.infoUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 40px;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.aboutUser {
+    width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+h1 {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+p.userData {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.newTravel {
+    height: 30px;
+    width: 180px;
+    background-color: #293948;
+    color: antiquewhite;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-style: italic;
+}
+
+button.newTravel:hover {
+    background-color: #f89d13;
+}
+
+img {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.travel {
+    background-image: url("../imgs/bgImageTravel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    width: 750px;
+    height: 80%;
+}
+
+.aboutTravel {
+    margin-left: 100px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightCol {
+    margin-left: 40px;
+
+}
+
+.desc {
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+p.descTravel {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.otherUsers {
+    margin-left: 70px;
+    margin-top: 100px;
+}
